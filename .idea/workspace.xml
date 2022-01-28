@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cfcda2a-8ef4-4066-a1f2-530f16caabcc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/deliver/customer/templates/customer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/deliver/customer/templates/customer/footer.html" afterDir="false" />
+    <list default="true" id="6cfcda2a-8ef4-4066-a1f2-530f16caabcc" name="Changes" comment="Test1">
       <change beforePath="$PROJECT_DIR$/deliver/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deliver/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +31,29 @@
       <option name="presentableId" value="Default" />
       <updated>1643306506138</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test1">
+      <created>1643380836205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643380836205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test1" />
   </component>
 </project>
