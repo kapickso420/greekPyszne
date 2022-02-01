@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d07f15e2-8d21-47ce-9153-a8ee55d8e484" name="Changes" comment="Crispy Templates, Profile/signUp/signIn/logOut,Dashboard">
-      <change afterPath="$PROJECT_DIR$/restaurant/templates/restaurant/order-details.html" afterDir="false" />
+    <list default="true" id="d07f15e2-8d21-47ce-9153-a8ee55d8e484" name="Changes" comment="Shipment status (base)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/restaurant/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/restaurant/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/restaurant/order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/restaurant/order-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643653836543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Shipment status (base)">
+      <created>1643664235140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643664235140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,10 +78,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PayPal Payment Metod + confirmation in /Admin" />
     <MESSAGE value="Crispy Templates, Profile/signUp/signIn/logOut,Dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crispy Templates, Profile/signUp/signIn/logOut,Dashboard" />
+    <MESSAGE value="Shipment status (base)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shipment status (base)" />
   </component>
 </project>

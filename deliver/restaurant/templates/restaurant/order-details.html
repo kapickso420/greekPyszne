@@ -18,7 +18,7 @@
         <div class="col-md-6 com-sm-12 mt-5">
             <p><span style="font-weight: 400;">Name:</span> {{ order.name }}</p>
             <p><span style="font-weight: 400;">Email:</span> {{ order.email }}</p>
-            <h5 class="pt-3">Adress Information:</h5>
+            <h5 class="pt-3">Address Information:</h5>
             <p><span style="font-weight: 400;">Street:</span> {{ order.street }}</p>
             <p><span style="font-weight: 400;">City:</span> {{ order.city }}</p>
             <p><span style="font-weight: 400;">State:</span> {{ order.state }}</p>
@@ -30,10 +30,9 @@
             <p class="mt-3">{% if order.is_paid %}
                 <p><i style="color: green;" class="fas fa-check"></i><span class="pl-2">Order Has Been Paid!</span></p>
                 {% else %}
-                <p><i style="color: red;" class="fas fa-times"></i><span class="pl-2">Order Not Been Paid!</span></p>
-                {% endif %}
-            </p>
-            {% if order.is_shipped %}
+                <p><i style="color: red;" class="fas fa-times"></i><span class="pl-2">Order Has Not Been Paid</span></p>
+                {% endif %}</p>
+                {% if order.is_shipped %}
                 <p><i style="color: green;" class="fas fa-check"></i><span class="pl-2">Order Has Been Shipped!</span></p>
                 {% else %}
                 <form method="POST">
@@ -44,6 +43,4 @@
         </div>
     </div>
 </div>
-
-
 {% endblock content %}
